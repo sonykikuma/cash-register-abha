@@ -1,0 +1,42 @@
+
+:root{
+    --primary-blue:#06b6d4;
+    --primary-dark:#0f172a;
+}
+
+*{
+    background-color: var(--primary-dark);
+margin:auto;
+padding: 0;
+color: var(--primary-blue);
+}
+.container{display: flex;
+flex-direction: column;
+width: 50vw;}
+
+h1{
+    padding: 5rem 0;
+}
+input{
+    padding: 1rem 0;
+    border: 1px solid var(--primary-blue);
+    text-align: center;
+}
+label{
+    padding: 0.5rem 0;
+}
+button{
+background: transparent;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    width: 10%;
+border-radius: 1rem;
+}
+.table-change{
+    padding: 1rem;
+}
+th,td{
+    border:1px solid var(--primary-blue);
+   border-collapse: collapse;
+}
